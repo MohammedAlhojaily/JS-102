@@ -1,3 +1,3 @@
-const number = 357_643_912
+const number = 12
 
-console.log(number)
+console.log(number.toString(2));
