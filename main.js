@@ -1,7 +1,3 @@
-function square(number){
-    if(isNaN(number))
-    return 'Invalid'
-    return number * number
-}
+const number = Math.pow(2, 3)
 
-console.log(square('a'))
+console.log(number)
