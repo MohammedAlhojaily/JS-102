@@ -1,7 +1,7 @@
-const numbers = [11, 7, 9, 15]
+const numbers = [2, 3, 7, 4, 9]
 
-const el = numbers.find(function(element){
-    return element % 4 === 0
+const evenNumbers = numbers.filter(function(currentValue){
+    return currentValue % 2 === 0
 })
 
-console.log(el)
+console.log(evenNumbers);
