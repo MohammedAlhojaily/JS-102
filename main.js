@@ -1,6 +1,7 @@
-const ages = [12, 14, 19, 21]
+const numbers = [11, 7, 9, 15]
 
-const index = ages.findIndex(function(element){
-    return element >=25
+const el = numbers.find(function(element){
+    return element % 4 === 0
 })
-console.log(index)
+
+console.log(el)
