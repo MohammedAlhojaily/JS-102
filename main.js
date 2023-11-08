@@ -1,2 +1,3 @@
-const result = -3 / 0
-console.log(result);
+const randomNubmer = Math.random()
+
+console.log(randomNubmer)
