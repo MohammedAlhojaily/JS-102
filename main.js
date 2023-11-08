@@ -1,5 +1,5 @@
-const str = '1.45'
+const str = '9090'
 
-const floatNumber = parseFloat(str)
+const intNumber = parseInt(str)
 
-console.log(floatNumber + 1);
+console.log(intNumber + 1)
