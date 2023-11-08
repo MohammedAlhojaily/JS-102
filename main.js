@@ -1,5 +1,4 @@
-const colors = ['red', 'green', 'blue']
+const colors = ['red', 'green', 'blue', 'green']
 
-const isContainRed = colors.includes('red', 1)
-
-console.log(isContainRed)
+const index = colors.indexOf('black')
+console.log(index)
