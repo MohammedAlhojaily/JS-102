@@ -1,3 +1,4 @@
-const number = Math.trunc(4.16)
+const number = 3
 
-console.log(number)
+const isInt = Number.isInteger(number)
+console.log(isInt);
