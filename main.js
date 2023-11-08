@@ -1,7 +1,5 @@
-const ages = [21, 23, 27, 25, 22, 15]
+const colors = ['red', 'green', 'blue']
 
-const areAdults = ages.every(function(element){
-    return element >= 18
-})
+const isContainRed = colors.includes('red', 1)
 
-console.log(areAdults)
+console.log(isContainRed)
