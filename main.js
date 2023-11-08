@@ -1,3 +1,5 @@
-const number = Math.abs(-8)
+const number = [4, 2, -9, 9, 7]
 
-console.log(number)
+const num = Math.min(...number)
+
+console.log(num);
