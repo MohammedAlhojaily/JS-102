@@ -1,3 +1,3 @@
-const number = Math.floor(-9.12)
+const number = Math.round(9.52)
 
 console.log(number)
