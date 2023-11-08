@@ -1,5 +1,3 @@
-const number = 16
+const number = -3
 
-const sqrtNumber = Math.sqrt(number)
-
-console.log(sqrtNumber);
+console.log(Math.sign(number));
