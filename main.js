@@ -1,7 +1,6 @@
-const numbers = [2, 3, 7, 4, 9]
+const primaryColors = ['red', 'yellow', 'blue']
+const secondaryColors = ['green', 'orange', 'violet']
 
-const evenNumbers = numbers.filter(function(currentValue){
-    return currentValue % 2 === 0
-})
+const colors = primaryColors.concat(secondaryColors, 'black', 'white')
 
-console.log(evenNumbers);
+console.log(colors);
