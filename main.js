@@ -1,7 +1,4 @@
-const numbers = [3, 7, 9]
+const strColors = 'red ; green ; blue ; black'
 
-const squaredNumbers = numbers.map(function(currentValue){
-    return currentValue * currentValue
-})
-
-console.log(squaredNumbers)
+const arrColors = strColors.split(' ; ', 3)
+console.log(arrColors);
