@@ -1,5 +1,3 @@
-const str = '9090'
+const number = Math.trunc(4.16)
 
-const intNumber = parseInt(str)
-
-console.log(intNumber + 1)
+console.log(number)
