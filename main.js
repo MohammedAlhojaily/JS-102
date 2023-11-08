@@ -1,4 +1,7 @@
-const number = 3
+function square(number){
+    if(isNaN(number))
+    return 'Invalid'
+    return number * number
+}
 
-const isInt = Number.isInteger(number)
-console.log(isInt);
+console.log(square('a'))
