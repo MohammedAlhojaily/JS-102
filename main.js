@@ -1,7 +1,4 @@
-const colors = ['red', 'black', 'green', 'white', 'blue']
-const numbers = [921, 735, 840]
+const colors = ['red', 'green', 'blue']
 
-colors.sort()
-console.log(colors);
-numbers.sort()
-console.log(numbers)
+colors.reverse()
+console.log(colors)
