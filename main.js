@@ -1,3 +1,3 @@
-const randomNubmer = Math.random()
+const number = 357_643_912
 
-console.log(randomNubmer)
+console.log(number)
