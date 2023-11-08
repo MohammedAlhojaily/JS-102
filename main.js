@@ -1,4 +1,5 @@
-const colors = ['black', 'red', 'green',' blue', 'white']
+const colors = ['red', 'green', 'blue',' black', 'white']
 
-const rgbColors = colors.slice(-4, -1)
-console.log(rgbColors)
+colors.splice(2, 0, 'gray', 'yellow')
+
+console.log(colors)
