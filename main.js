@@ -1,7 +1,7 @@
-const ages = [11, 13, 15, 12]
+const ages = [21, 23, 27, 25, 22, 15]
 
-const hasAdult = ages.some(function(element){
+const areAdults = ages.every(function(element){
     return element >= 18
 })
 
-console.log(hasAdult)
+console.log(areAdults)
