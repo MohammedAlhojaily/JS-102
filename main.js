@@ -1,5 +1,5 @@
 const number = [4, 2, -9, 9, 7]
 
-const num = Math.min(...number)
+const num = Math.max(...number)
 
 console.log(num);
