@@ -1,4 +1,7 @@
-const colors = ['red', 'green', 'blue']
+const numbers = [3, 7, 9]
 
-colors.reverse()
-console.log(colors)
+const squaredNumbers = numbers.map(function(currentValue){
+    return currentValue * currentValue
+})
+
+console.log(squaredNumbers)
