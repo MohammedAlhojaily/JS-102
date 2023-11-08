@@ -1,4 +1,7 @@
-const arrColors = ['red', 'green', 'blue']
+const colors = ['red', 'black', 'green', 'white', 'blue']
+const numbers = [921, 735, 840]
 
-const strColors = arrColors.join('-')
-console.log(strColors);
+colors.sort()
+console.log(colors);
+numbers.sort()
+console.log(numbers)
