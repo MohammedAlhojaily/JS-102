@@ -1,3 +1,5 @@
-const number = Math.pow(2, 3)
+const number = 16
 
-console.log(number)
+const sqrtNumber = Math.sqrt(number)
+
+console.log(sqrtNumber);
