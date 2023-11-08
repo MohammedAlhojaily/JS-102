@@ -1,5 +1,5 @@
-const number = [4, 2, -9, 9, 7]
+const str = '1.45'
 
-const num = Math.max(...number)
+const floatNumber = parseFloat(str)
 
-console.log(num);
+console.log(floatNumber + 1);
