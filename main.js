@@ -1,3 +1,2 @@
-const number = -3
-
-console.log(Math.sign(number));
+const result = -3 / 0
+console.log(result);
