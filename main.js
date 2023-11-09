@@ -8,12 +8,15 @@ class Animal{
     this.speed = speed
     return `${this.speed} runs with speed ${this.speed}`
     }
+    makeSound(){
+        console.log('sound...');
+    }
 }
 
 class Cat extends Animal{
     
     makeSound(){
-        return 'Meww...'
+        console.log('mew...');
     }
 }
 class Fox extends Animal{
@@ -23,4 +26,4 @@ class Fox extends Animal{
 }
 
 const cat = new Cat('snowy', 'white')
-console.log(cat);
+cat.makeSound()
