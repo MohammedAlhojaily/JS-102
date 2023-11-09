@@ -1,8 +1,8 @@
-function rectangleArea(w, l){
-    console.log(w, l);
-    let a = w * l;
-    return a;
+function rectangleOrSquareArea(w, l=10){
+
+let area = w * l;
+return area;
 }
 
-let area = rectangleArea(4);
+let area = rectangleOrSquareArea(4, 5);
 console.log(area);
