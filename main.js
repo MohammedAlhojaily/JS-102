@@ -1,15 +1,12 @@
-const car = {
-    name: 'camry',
-    color: 'white',
-    currentSpeed: 0,
-    move: function(speed){
-       this.currentSpeed = speed
-       return `The ${this.name} is moving at speed of ${this.currentSpeed}km per hour`
-    },
-    stop: function(){
-        this.currentSpeed = 0
-        return `The ${this.name} stopped`
+class Car {
+    constructor(name, color, currentSpeed){
+        this.name = name
+        this.color = color
+        this.currentSpeed = currentSpeed
     }
 }
 
-console.log(car.move(100));
+const car1 = new Car('camry', 'white', 0)
+const car2 = new Car('corella', 'black',  0) 
+console.log(car1);
+console.log(car2);
