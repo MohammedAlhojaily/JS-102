@@ -1,8 +1,5 @@
-function rectangleOrSquareArea(w, l=10){
-
-let area = w * l;
-return area;
+let studentsNames = function(name1, name2, ...names){
+    console.log(name1, name2, names);
 }
 
-let area = rectangleOrSquareArea(4, 5);
-console.log(area);
+studentsNames("Hind ", "Khalid ", "Abdullah ", "Reem ");
