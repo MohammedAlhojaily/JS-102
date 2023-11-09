@@ -1,29 +1,14 @@
-class Animal{
-    constructor(name, color){
-        this.name = name
-        this.color = color
-        this.speed = 0
-    }
-    run(speed){
-    this.speed = speed
-    return `${this.speed} runs with speed ${this.speed}`
-    }
-    makeSound(){
-        console.log('sound...');
-    }
+let user1 = {
+    firstName: "Fatimah",
+    lastName: "Khalid"
+}
+let user2 = {
+    firstName: "Asmaa",
+    lastName: "Mohammed"
 }
 
-class Cat extends Animal{
-    
-    makeSound(){
-        console.log('mew...');
-    }
+let printFullName = function(age){
+    console.log("Hello, " + this.firstName+" "+this.lastName+". Your age is: "+age);
 }
-class Fox extends Animal{
-    makesound(){
-        return 'bark...'
-    }
-}
-
-const cat = new Cat('snowy', 'white')
-cat.makeSound()
+printFullName.call(user1, "25");
+printFullName.call(user2, "20");
