@@ -1,24 +1,26 @@
-class Car {
-    static numberOfCars = 0
-    constructor(name, color, currentSpeed){
+class Animal{
+    constructor(name, color){
         this.name = name
         this.color = color
-        this.currentSpeed = currentSpeed
-        Car.incrementNumberOfCars()
+        this.speed = 0
     }
-    move(speed){
-        this.currentSpeed = speed
-        return `The ${this.name} is moving at speed of ${this.currentSpeed}km per hour`
-    }
-    stop(){
-        this.currentSpeed = 0
-        return `The ${this.name} stopped`
-    }
-    static incrementNumberOfCars(){
-        Car.numberOfCars++
+    run(speed){
+    this.speed = speed
+    return `${this.speed} runs with speed ${this.speed}`
     }
 }
 
-const car1 = new Car('camry', 'white', 0)
-const car2 = new Car('corella', 'black',  0) 
-console.log(Car.numberOfCars);
+class Cat extends Animal{
+    
+    makeSound(){
+        return 'Meww...'
+    }
+}
+class Fox extends Animal{
+    makesound(){
+        return 'bark...'
+    }
+}
+
+const cat = new Cat('snowy', 'white')
+console.log(cat);
