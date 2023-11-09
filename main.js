@@ -1,6 +1,12 @@
-const numbers = [2, 4, 1, 3, 5]
+const car = {
+    name: 'camry',
+    color: 'white',
+    currentSpeed: 0,
+    move: function(speed){},
+    stop: function(){
+        console.log('stop method');
+    }
+}
 
-const total = numbers.reduce(function(accumulator, currentValue, index, array){
-    return accumulator + currentValue
-}, 100)
-console.log(total)
+console.log(car.name)
+car.stop()
