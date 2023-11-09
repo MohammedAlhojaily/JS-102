@@ -10,5 +10,5 @@ let user2 = {
 let printFullName = function(age){
     console.log("Hello, " + this.firstName+" "+this.lastName+". Your age is: "+age);
 }
-printFullName.call(user1, "25");
-printFullName.call(user2, "20");
+printFullName.apply(user1, [25]);
+printFullName.apply(user2, [20]);
