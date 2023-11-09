@@ -1,8 +1,10 @@
 class Car {
+    static numberOfCars = 0
     constructor(name, color, currentSpeed){
         this.name = name
         this.color = color
         this.currentSpeed = currentSpeed
+        Car.incrementNumberOfCars()
     }
     move(speed){
         this.currentSpeed = speed
@@ -12,9 +14,11 @@ class Car {
         this.currentSpeed = 0
         return `The ${this.name} stopped`
     }
+    static incrementNumberOfCars(){
+        Car.numberOfCars++
+    }
 }
 
 const car1 = new Car('camry', 'white', 0)
 const car2 = new Car('corella', 'black',  0) 
-console.log(car1.move(50));
-console.log(car2.move(70));
+console.log(Car.numberOfCars);
