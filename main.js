@@ -1,14 +1,5 @@
-let user1 = {
-    firstName: "Fatimah",
-    lastName: "Khalid"
-}
-let user2 = {
-    firstName: "Asmaa",
-    lastName: "Mohammed"
-}
+let add = (num1, num2, num3) => num1+ num2+num3
 
-let printFullName = function(age){
-    console.log("Hello, " + this.firstName+" "+this.lastName+". Your age is: "+age);
-}
-let newFunction = printFullName.bind(user1);
-newFunction("25")
+let result = num1 => {let result = num1}
+
+let print = () => console.log("This arrow function has no parameters");
